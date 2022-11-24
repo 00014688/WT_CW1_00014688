@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        #home 
+        {
+            background: url(./images/01ba076437625a68d19de3a2604b499f.jpg)  no-repeat center center fixed;
+            height: 85vh;
+            position: relative;
+            width: 100%;
+            background-size: cover;
+        }
+    </style>
+        
+</head>
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>Santander Barbershop</h1>
+            </div>
+            <nav>
+              <ul>
+                    <li><a href="index.html" class="current page">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+              </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="home">
+            <div class="overlay">
+                <div class="landing-text">
+                    
+                    <h1>Santander Barbershop</h1>
+                    <hr id="hr-main">
+                    <a href="contact.html" class="button btn-hire"id="submit" onclick="alerted();">Appointment</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3><span id="demo">&copy;</span><a href="#">SantanderBarbershop.com</a></h3>
+        <p>This website was created to fulfill Web Technology 
+            module’s requirements and does not represent an actual company or service</p>
+    </footer>
+    <script>
+        function alerted(){
+            alert('Click ok to go to the Сontact page')
+        }
+    </script>
+</body>
+</html>

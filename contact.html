@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+    <link rel="stylesheet" href="./style.css">
+    <style type="text/css">
+        BODY {
+        background: url(./images/santander45.jpg) no-repeat center center fixed;
+        height: 85vh;
+        position: relative;
+        width: 100%;
+        background-size: cover;
+    }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>Santander Barbershop</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="current-page">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="contact">
+        <h1>Our Contacts</h1>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <h4>Our Location:</h4>
+                <p>Fidokor street, 10</p>
+                <p>Tashkent, Uzbekistan</p>
+                <h4>Phone number:</h4>
+                <p>+998 (99) 607-33-44</p>
+                <h4>Email adress:</h4>
+                <p>info@SantanderBarbershop.com</p>
+            </div>
+            <div class="flex-item-right">
+                <form action="">
+                    <input type="text" id="name" placeholder="Your Name">
+                    <input type="text" name="number" id="number" placeholder="Number">
+                    <textarea name="text" id="textarea" cols="20" rows="10"></textarea>
+                    <button type="button" class="btn btn-success" id="submit" onclick="alerted();">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3><span id="demo">&copy;</span><a href="#">SantanderBarbershop.com</a></h3>
+    </footer>
+    <script>
+        function alerted(){
+            alert('You clicked the button')
+        }
+    </script>
+   
+</body>
+
+</html>
